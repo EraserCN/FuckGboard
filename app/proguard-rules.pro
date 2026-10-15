@@ -1,0 +1,3 @@
+-keep class com.pixelboard.lsposed.XposedInit { *; }
+-keep class com.pixelboard.lsposed.hooks.** { *; }
+-keep class de.robv.android.xposed.** { *; }

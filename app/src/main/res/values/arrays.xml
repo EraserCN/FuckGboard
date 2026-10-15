@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposed_scope">
+        <item>com.google.android.inputmethod.latin</item>
+    </string-array>
+
+    <string-array name="backend_entries">
+        <item>Gboard Server (Cloud - Recommended for non-Pixel)</item>
+        <item>AICore (Private On-Device Gemini Nano - Pixel 8 Pro/9+)</item>
+        <item>Astrea (Private Inference Engine)</item>
+    </string-array>
+
+    <string-array name="backend_values">
+        <item>GBOARD_SERVER</item>
+        <item>PRIVATE_INFERENCE_AICORE</item>
+        <item>PRIVATE_INFERENCE_ASTREA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/cat_general">
+        <SwitchPreferenceCompat
+            app:key="pref_master_switch"
+            app:title="@string/pref_master_switch"
+            app:summary="@string/pref_master_switch_summary"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_spoof_pixel"
+            app:title="@string/pref_spoof_pixel"
+            app:summary="@string/pref_spoof_pixel_summary"
+            app:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_voice">
+        <SwitchPreferenceCompat
+            app:key="pref_rambler_voice"
+            app:title="@string/pref_rambler_voice"
+            app:summary="@string/pref_rambler_voice_summary"
+            app:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_ai_writing">
+        <SwitchPreferenceCompat
+            app:key="pref_writing_tools"
+            app:title="@string/pref_writing_tools"
+            app:summary="@string/pref_writing_tools_summary"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_all_keyboards"
+            app:title="@string/pref_all_keyboards"
+            app:summary="@string/pref_all_keyboards_summary"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_writing_tools_v2"
+            app:title="@string/pref_writing_tools_v2"
+            app:summary="@string/pref_writing_tools_v2_summary"
+            app:defaultValue="true" />
+
+        <ListPreference
+            app:key="pref_backend_type"
+            app:title="@string/pref_backend_type"
+            app:summary="@string/pref_backend_type_summary"
+            app:entries="@array/backend_entries"
+            app:entryValues="@array/backend_values"
+            app:defaultValue="PRIVATE_INFERENCE_ASTREA"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_styling">
+        <SwitchPreferenceCompat
+            app:key="pref_enable_ui_tweaks"
+            app:title="@string/pref_enable_ui_tweaks"
+            app:summary="@string/pref_enable_ui_tweaks_summary"
+            app:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_rounded_keys"
+            app:title="@string/pref_rounded_keys"
+            app:summary="@string/pref_rounded_keys_summary"
+            app:dependency="pref_enable_ui_tweaks"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_vibrant_emojis"
+            app:title="@string/pref_vibrant_emojis"
+            app:summary="@string/pref_vibrant_emojis_summary"
+            app:dependency="pref_enable_ui_tweaks"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_word_learning"
+            app:title="@string/pref_word_learning"
+            app:summary="@string/pref_word_learning_summary"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_clipboard_sync"
+            app:title="@string/pref_clipboard_sync"
+            app:summary="@string/pref_clipboard_sync_summary"
+            app:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cat_actions">
+        <Preference
+            app:key="action_restart_gboard"
+            app:title="@string/action_restart_gboard"
+            app:summary="@string/action_restart_gboard_summary" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

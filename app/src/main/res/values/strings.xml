@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PixelBoard LSPosed</string>
+    <string name="xposed_description">Unlock Google Pixel Gemini Rambler voice dictation, AI Writing Tools, and Pixel features in Gboard.</string>
+    
+    <!-- Preference Titles & Summaries -->
+    <string name="cat_general">General</string>
+    <string name="pref_master_switch">Enable PixelBoard</string>
+    <string name="pref_master_switch_summary">Master toggle for all Gboard modifications</string>
+    <string name="pref_spoof_pixel">Pixel 9 Pro Device Spoof</string>
+    <string name="pref_spoof_pixel_summary">Spoof device model to Pixel 9 Pro (caiman) inside Gboard to bypass hardware eligibility checks</string>
+    
+    <string name="cat_voice">Voice Typing (Gemini Rambler)</string>
+    <string name="pref_rambler_voice">Gemini Rambler Voice Typing</string>
+    <string name="pref_rambler_voice_summary">Enable Next Generation Assistant (NGA) &amp; Agentic Dictation with auto-punctuation, sentence restructuring and gradient wave glow</string>
+    
+    <string name="cat_ai_writing">AI Writing Tools</string>
+    <string name="pref_writing_tools">AI Writing Tools &amp; Proofread</string>
+    <string name="pref_writing_tools_summary">Enable in-line proofreading, text rephrasing, and tone stylization</string>
+    <string name="pref_all_keyboards">All Languages Support</string>
+    <string name="pref_all_keyboards_summary">Bypass English-only restriction for AI Writing Helper</string>
+    <string name="pref_writing_tools_v2">Writing Tools V2 (Prompt Bar)</string>
+    <string name="pref_writing_tools_v2_summary">Enable floating instruction prompt bar and suggested style chips</string>
+    <string name="pref_backend_type">AI Backend Model</string>
+    <string name="pref_backend_type_summary">Select AI inference provider</string>
+    
+    <string name="cat_styling">Styling &amp; Appearance Tweaks</string>
+    <string name="pref_enable_ui_tweaks">Enable UI &amp; Styling Hooks</string>
+    <string name="pref_enable_ui_tweaks_summary">Master switch for all non-functional UI modifications. Turn off to keep stock UI and avoid rendering lag</string>
+    <string name="pref_rounded_keys">Material 3 Rounded Keys</string>
+    <string name="pref_rounded_keys_summary">Enable Expressive pill/rounded keycaps (Belka style)</string>
+    <string name="pref_vibrant_emojis">Vibrant Candidate Emojis</string>
+    <string name="pref_vibrant_emojis_summary">Render candidate strip emojis with 100% opacity instead of dim translucent text</string>
+    <string name="pref_word_learning">Fast Word Learning &amp; Suggestions</string>
+    <string name="pref_word_learning_summary">Enable instant out-of-vocabulary word learning, 2-letter continuation scoring, and beam decoder</string>
+    <string name="pref_clipboard_sync">Samsung / Vivo Clipboard Sync Fix</string>
+    <string name="pref_clipboard_sync_summary">Synchronize clipboard history upon input view start to bypass OEM background restrictions</string>
+    
+    <string name="cat_actions">Actions</string>
+    <string name="action_restart_gboard">Force Stop Gboard</string>
+    <string name="action_restart_gboard_summary">Restart Gboard to apply changes immediately (requires root)</string>
+    <string name="gboard_restarted">Gboard stopped successfully</string>
+    <string name="root_required">Root permission required to restart Gboard directly</string>
+</resources>
